@@ -1,0 +1,26 @@
+        constructor() {
+            this.shoppingCart = new ShoppingCart("Shopping Cart");
+            this.mainBookScreen = document.getElementById("mainBookScreen");
+            const maxBooksPerPage = 8;
+            let bookId = 1;
+
+            let loadNewBook = function (loadBookId) {
+                /*******************************************************************************
+                 *****                                                                     *****
+                 *****    Implement the Code for loading and displaying a new book here    *****
+                 *****                                                                     *****
+                 *******************************************************************************/
+            }
+
+            loadNewBook(bookId);
+            bookId++;
+            loadNewBook(bookId);
+            bookId++;
+
+            window.addEventListener('scroll', function () {
+                if (window.scrollY >= document.getElementById("mainBookScreen").clientHeight - window.innerHeight - 10 && bookId <= maxBooksPerPage) {
+                    loadNewBook(bookId);
+                    bookId++;
+                }
+            });
+        }

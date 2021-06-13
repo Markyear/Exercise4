@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+<h1>Website Feedback Form</h1>
+<form action="../../../PhpstormProjects/untitled/main.html" method="post" enctype="text/plain">
+
+    <div class = "BlockRadio">
+<p class = "Question">Is this the first time you have visited the website?</p>
+        <label><input type="radio"value="yes"name="yesno"id="yes">
+    yes</label>
+        <label><input type="radio"value="no"name="yesno"id="no">
+    no</label>
+    </div>
+
+<p class = "Question">What is the PRIMARY reason you came to the site?</p>
+<label for="comment_reason"></label>
+<textarea reason="text"rows="5"id="comment_reason"></textarea>
+
+<p class = "Question">Did you find what you needed?</p>
+    <label><input type="radio"value="yes, all of it"name="yesmaybe"id="Yes, all of it">
+    Yes, all of it</label>
+    <label><input type="radio"value="yes, some of it"name="yesmaybe"id="Yes, some of it">
+    Yes, all of it</label>
+    <label><input type="radio"value="No, none of it"name="yesmaybe"id="No, none of it">
+    No, none of it</label>
+
+
+<p class = "Question">If you did not find any or all of what you needed, please tell us what information you were looking for</p>
+<label for="comment_what_info"></label>
+<textarea reason="text"rows="5"id="comment_what_info"></textarea>
+
+<p class = "Question" >Please tell us how easy it is to find information on the site.</p>
+    <label><input type="radio"value="Very easy"name="easydifficult"id="Very easy">
+    Very easy</label>
+    <label><input type="radio"value="Easy"name="easydifficult"id="Easy">
+    Easy</label>
+    <label><input type="radio"value="Average"name="easydifficult"id="Average">
+    Average</label>
+    <label><input type="radio"value="Difficult"name="easydifficult"id="Difficult">
+    Difficult</label>
+    <label><input type="radio"value="Very Difficult"name="easydifficult"id="Very Difficult">
+    Very Difficult</label>
+
+<p class = "Question">What is your overall impression if the site?</p>
+<table>
+    <tr>
+    <th> </th>
+    <th>Bellow Expectations</th>
+    <th>Meets Expectations</th>
+    <th>Exceeds Expectations</th>
+
+    </tr>
+    <tr>
+        <td>Professional</td>
+        <td><input type="radio"value="Professional_below"name="Professional"id="Professional_below"></td>
+        <td><input type="radio"value="Professional_meets"name="Professional"id="Professional_meets"></td>
+        <td><input type="radio"value="Professional_exceeds"name="Professional"id="Professional_exceeds"></td>
+    </tr>
+    <tr>
+        <td>Informative</td>
+        <td><input type="radio"value="Informative_below"name="Informative"id="Informative_below"></td>
+        <td><input type="radio"value="Informative_meets"name="Informative"id="Informative_meets"></td>
+        <td><input type="radio"value="Informative_exceeds"name="Informative"id="Informative_exceeds"></td>
+    </tr>
+
+    <tr>
+        <td>Visually Pleasing</td>
+        <td><input type="radio"value="VP_below"name="VP"id="VP_below"></td>
+        <td><input type="radio"value="VP_meets"name="VP"id="VP_meets"></td>
+        <td><input type="radio"value="VP_exceeds"name="VP"id="VP_exceeds"></td>
+    </tr>
+</table>
+
+
+    <p class = "Question">What is the likelihood that you will visit the website again?</p>
+    <label><input type="radio"value="Extremely likely"name="likely"id="Extremely likely">
+    Extremely likely</label>
+    <label><input type="radio"value="Very likely"name="likely"id="Very likely">
+    Very likely</label>
+    <label><input type="radio"value="Moderately likely"name="likely"id="Moderately likely">
+    Moderately likely</label>
+    <label><input type="radio"value="Slightly likely"name="likely"id="Slightly likely">
+    Slightly likely</label>
+    <label><input type="radio"value="Not at all likely"name="likely"id="Not at all likely">
+    Not at all likely</label>
+
+
+<p class = "Question">Please add any comments you have for improving the website. We welcome suggestions on specific areas for improvements, features you would like to see added to the site and example of what you consider good websites.</p>
+<label for="comment_for_improving"></label>
+<textarea reason="text"rows="5"id="comment_for_improving"></textarea>
+
+<p class = "Question">We would like to know a little bit about you</p>
+<label for="eMail">eMail
+<input type="email"id="eMail"required placeholder="user@example.com"></label>
+<label for="URL">Your Homepage
+<input type="url"id="URL"placeholder="www.example.com"></label>
+<label>
+    Date of birth
+    <input type="date"name="date_of_birth">
+</label>
+
+<br>
+    <p id = "alligButton">
+<input id = "sendButton" name="submit" type="submit" value="Send">
+    </p>
+</form>
+</body>
+</html>

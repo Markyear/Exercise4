@@ -1,0 +1,83 @@
+
+* {
+    font-family: Arial;
+    font-size: 14px;
+    Color: #666;
+    Line-height: 22px;
+}
+
+form {
+    width: 100%;
+    background-color: #fff;
+}
+
+
+
+textarea{
+    width: 100%;
+    left: 6px;
+    right: 6px;
+}
+
+textarea:hover{
+
+    border:1px;
+    border-style: solid;
+    border-color: #1c87c9;
+}
+label {
+    display: block;
+
+}
+.Question {
+    color: #095484;
+    padding-top: 5px;
+
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;  /* ptherwise you will not see the lines */
+}
+th{
+    width: 28%;
+    text-align: center;
+}
+
+th:first-child{
+    width: 16%;
+}
+tr:nth-child(n + 2){
+    border:1px;
+    border-style: solid;
+    border-color: #ccc;
+
+}
+
+/*bullets are in the middle, only the left ones are left */
+
+td{
+    text-align: center;
+}
+td:first-child{
+    text-align: left;
+}
+
+#sendButton
+{
+    background-color: #095484;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    alignment: center;
+
+}
+#sendButton:hover{
+cursor: pointer;
+    border-color:#0666a3;
+}
+#alligButton{
+    padding-top: 10px;
+    text-align: center;
+}
