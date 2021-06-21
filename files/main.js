@@ -1,11 +1,5 @@
 
-/*let test = 1
-async function loadBooks() {
-    let myObject = await fetch("http://localhost:3000/api/v1/books/"+test);
-    let myText = await myObject.text();
-    console.log(myText);
-    // document.getElementById("demo").innerHTML = myText;
-}*/
+
 
 document.addEventListener("DOMContentLoaded", function (event) {
 

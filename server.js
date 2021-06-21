@@ -1,8 +1,9 @@
 
-//libraries imported: express + body-parser
+//libraries imported: express + body-parser + cors
 const express = require('express');
 const bodyParser = require('body-parser');
 const bookRoutes = require('./api/routes/BookRoutes')
+//https://medium.com/zero-equals-false/using-cors-in-express-cac7e29b005b
 const cors = require('cors')
 
 //create new application
