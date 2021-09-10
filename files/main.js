@@ -65,6 +65,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
             bookId++;
             loadNewBook(bookId);
             bookId++;
+            loadNewBook(bookId);
+            bookId++;
+            loadNewBook(bookId);
+            bookId++;
 
          window.addEventListener('scroll', function () {
               if (window.scrollY >= document.getElementById("mainBookScreen").clientHeight - window.innerHeight - 10 && bookId <= maxBooksPerPage) {
